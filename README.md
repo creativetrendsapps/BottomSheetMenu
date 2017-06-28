@@ -1,11 +1,13 @@
-### Bottom Sheet Menu
+Bottom Sheet Menu
+==================
 Library to create [Bottom Sheet Menu](https://material.io/guidelines/components/bottom-sheets.html) in a familiar `<menu>` style.
 
 Basically this is implementation of **Modal bottom sheets** (list only) from [Material Design Guidelines](https://material.io/guidelines/components/bottom-sheets.html#bottom-sheets-modal-bottom-sheets)
 
 ![Image](/img/example.png)
 
-### How to use
+How to use
+-----------
 1. Create `menu.xml` file as for any other menu, providing id, title and icon for each item
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -49,7 +51,8 @@ public void onBottomSheetMenuItemSelected(MenuItem item) {
 So, code is similar to creating menu in Toolbar (where `onCreateOptionsMenu` and `onOptionsItemSelected` methods are used).<br/>
 This library provides similar callbacks to make it more familiar to android components.
 
-### Additional
+Additional
+----------
 Additionally `BottomSheetsUtils` class is added with few customization methods.
 1. `setMenuItemTextColor` - sets `MenuItem` title to `Spannable` with `ForegroundColorSpan` with required color set.<br/>
 This allows to set custom text color on menu item.<br/>
@@ -69,7 +72,8 @@ public void onCreateBottomSheetMenu(MenuInflater inflater, Menu menu) {
 }
 ```
 
-### License
+License
+-------
 ```
 Copyright (C) 2017 Vasya Drobushkov
 
