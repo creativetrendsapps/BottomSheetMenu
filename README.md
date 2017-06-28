@@ -1,10 +1,17 @@
-Bottom Sheet Menu
+Bottom Sheet Menu [ ![Download](https://api.bintray.com/packages/krossovochkin/BottomSheetMenu/com.krossovochkin.bottomsheetmenu%3Abottomsheetmenu/images/download.svg) ](https://bintray.com/krossovochkin/BottomSheetMenu/com.krossovochkin.bottomsheetmenu%3Abottomsheetmenu/_latestVersion)
 ==================
 Library to create [Bottom Sheet Menu](https://material.io/guidelines/components/bottom-sheets.html) in a familiar `<menu>` style.
 
 Basically this is implementation of **Modal bottom sheets** (list only) from [Material Design Guidelines](https://material.io/guidelines/components/bottom-sheets.html#bottom-sheets-modal-bottom-sheets)
 
 ![Image](/img/example.png)
+
+Installation
+------------
+Add to your `build.gradle`
+```
+compile 'com.krossovochkin.bottomsheetmenu:bottomsheetmenu:1.0'
+```
 
 How to use
 -----------
